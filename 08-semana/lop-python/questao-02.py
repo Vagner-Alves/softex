@@ -23,4 +23,5 @@ def abrir_arquivo(arquivo):
     except FileNotFoundError:
         print('arquivo não encontrado.')
 
-abrir_arquivo(CAMINHO_ARQUIVO)
+arquivo_usuario = str(input(r"digite o caminho ( relativo ) do arquivo de texto: "))
+abrir_arquivo(arquivo_usuario)
