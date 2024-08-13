@@ -1,9 +1,9 @@
 class Usuario:
     def __init__(self, nome, idade, sexo, endereco, documento_identificacao):
-        self.nome = nome,
-        self.idade = idade,
-        self.sexo = sexo,
-        self.endereco = endereco,
+        self.nome = nome
+        self.idade = idade
+        self.sexo = sexo
+        self.endereco = endereco
         self.documento_identificacao = documento_identificacao
     
     def exibir_informacao(self):
