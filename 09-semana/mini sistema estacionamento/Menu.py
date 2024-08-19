@@ -16,10 +16,10 @@ class Usuario:
 
 class Veiculo:
     def __init__(self, modelo, marca, hora_entrada, hora_saida, placa, cor):
-        self.modelo = modelo,
-        self.marca = marca,
-        self.hora_entrada = hora_entrada,
-        self.hora_saida = hora_saida,
+        self.modelo = modelo
+        self.marca = marca
+        self.hora_entrada = hora_entrada
+        self.hora_saida = hora_saida
         self.placa = placa
         self.cor = cor
     
