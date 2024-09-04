@@ -13,11 +13,21 @@ class Listagem_numerica:
             return None
 
 
+class Adicionar_numeros:
 
+    def __init__(self, lista):
+        self.lista = lista
 
+    def adicionar_numero(self, numero):
 
+        try:
+            self.lista.append(numero)
+        
+        except TypeError:
+            print("A lista aceita apenas tipos inteiros")
+            
 
-numeros = [1,2,3,4,5,6,7,8,9,10]
+numeros = []
 
 listagem_numerica = Listagem_numerica(numeros)
 
