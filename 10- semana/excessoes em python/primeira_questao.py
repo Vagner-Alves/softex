@@ -39,13 +39,22 @@ class Adicionar_numeros:
 
 
 numeros = [1,2,3]
+entrada_usuario = " "
 
-adicionar = Adicionar_numeros()
+#adicionar = Adicionar_numeros()
 
-adicionar.adicionar_numero()
+#adicionar.adicionar_numero()
 
-listagem_numerica = Listagem_numerica(adicionar.retorna_lista())
+#listagem_numerica = Listagem_numerica(adicionar.retorna_lista())
 
-resultado_busca = listagem_numerica.obter_numero_pelo_indice(1)
+#resultado_busca = listagem_numerica.obter_numero_pelo_indice(1)
+
+
+while entrada_usuario.upper() == "SIM":
+
+    entrada_usuario = str(input("Deseja continuar ?"))
+
+    if entrada_usuario.upper() == "NÃO":
+        break
 
 
