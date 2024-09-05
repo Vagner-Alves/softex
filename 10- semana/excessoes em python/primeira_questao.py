@@ -35,7 +35,7 @@ class Adicionar_numeros:
 
 numeros = []
 
-listagem_numerica = Listagem_numerica(numeros)
+#listagem_numerica = Listagem_numerica(numeros)
 
 #resultado_busca = listagem_numerica.obter_numero_pelo_indice(12)
 
