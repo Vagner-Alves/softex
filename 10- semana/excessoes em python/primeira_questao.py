@@ -56,5 +56,6 @@ while entrada_usuario.upper() == "SIM":
 
     if entrada_usuario.upper() == "NÃO":
         break
-
+    
+    
 
