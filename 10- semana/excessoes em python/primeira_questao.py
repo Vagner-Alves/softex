@@ -23,11 +23,13 @@ class Adicionar_numeros:
 
         try:
             self.numero = int(input("informe um número"))
+            
+        except ValueError:
+            print("A lista aceita apenas números inteiros")
+        
+        finally:
             self.lista.append(self.numero)
             print(self.lista)
-        
-        except TypeError:
-            print("A lista aceita apenas números inteiros")
 
 
 numeros = []
