@@ -31,7 +31,9 @@ class Adicionar_numeros:
         
         finally:
           
-            print(self.lista)
+            return self.lista
+
+
 
 numeros = []
 
@@ -42,3 +44,5 @@ numeros = []
 adicionar = Adicionar_numeros(numeros)
 
 adicionar.adicionar_numero()
+
+
