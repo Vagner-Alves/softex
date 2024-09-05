@@ -30,19 +30,22 @@ class Adicionar_numeros:
             print(f"\nA lista não aceita outros tipos de dados, apenas tipos inteiros são aceitos: ex 1, 2, 4 etc.")
         
         finally:
-          
-            return self.lista
+            print(self.lista)
+        
+    
+    def retorna_lista(self):
+        return self.lista
 
 
 
-numeros = []
+numeros = [1,2,3]
 
-#listagem_numerica = Listagem_numerica(numeros)
-
-#resultado_busca = listagem_numerica.obter_numero_pelo_indice(12)
-
-adicionar = Adicionar_numeros(numeros)
+adicionar = Adicionar_numeros()
 
 adicionar.adicionar_numero()
+
+listagem_numerica = Listagem_numerica(adicionar.retorna_lista())
+
+resultado_busca = listagem_numerica.obter_numero_pelo_indice(1)
 
 
